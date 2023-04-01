@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proboard</title>
+
+	<link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+	<link href="css/custom.css" type="text/css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	<script src="https://kit.fontawesome.com/081b8daddd.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+
+	<!-- Latest compiled and minified CSS -->
+
+	<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ -->
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ -->
+</head>
+
+<body>
+	<div class="container_prncpl">
+		<div class="board">
+			<div class="box_board">
+				<div class="title_board">
+					<div>
+						<svg width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z">
+							</path>
+							<path
+								d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z">
+							</path>
+							<path
+								d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z">
+							</path>
+						</svg>
+					</div>
+					<p>My Task</p>
+				</div>
+				</a>
+				<div id="collapseTest" class="collapse">Test</div>
+				<ul>
+					<li>
+						<i class="icofont-home"></i>
+						<p>Dashboards</p>
+						<ul id="collapseFirst" class="collapse">
+							<li><a>Hr Dasboard</a></li>
+							<li><a>Project Dasboard</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseFirst""></i>
+					</li>
+					<li>
+						<i class="icofont-briefcase"></i>
+						<p>Project</p>
+						<ul id="collapseSecond" class="collapse">
+							<li><a>Projects</a></li>
+							<li><a>Tasks</a></li>
+							<li><a>Timesheet</a></li>
+							<li><a>Leaders</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseSecond""></i>
+					</li>
+					<li>
+						<i class="icofont-ticket"></i>
+						<p>Tickets</p>
+						<ul id="collapseThird" class="collapse">
+							<li><a>Tickets View</a></li>
+							<li><a>Tickets Detail</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseThird""></i>
+					</li>
+					<li>
+						<i class="icofont-user-male"></i>
+						<p>Our Clients</p>
+						<ul id="collapseFourth" class="collapse">
+							<li><a>Clients</a></li>
+							<li><a>Profile</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseFourth""></i>
+					</li>
+					<li>
+						<i class="icofont-users-alt-5"></i>
+						<p>Employees</p>
+						<ul id="collapseFifth" class="collapse in">
+							<li><a>Members</a></li>
+							<li><a>Members Profile</a></li>
+							<li><a>Holidays</a></li>
+							<li><a>Attendance Employees</a></li>
+							<li><a>Attendance</a></li>
+							<li><a>Leave Request</a></li>
+							<li><a>Departament</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseFifth""></i>
+					</li>
+					<li>
+						<i class="icofont-ui-calculator"></i>
+						<p>Accounts</p>
+						<ul id="collapseSixth" class="collapse">
+							<li><a>Invoices</a></li>
+							<li><a>Payments</a></li>
+							<li><a>Expenses</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseSixth""></i>
+					</li>
+					<li>
+						<i class="icofont-users-alt-5"></i>
+						<p>Payroll</p>
+						<ul id="collapseSeventh" class="collapse">
+							<li><a>Employee Salary</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseSeventh""></i>
+					</li>
+					<li>
+						<i class="icofont-contrast"></i>
+						<p>App</p>
+						<ul id="collapseEighth" class="collapse">
+							<li><a>Calendar</a></li>
+							<li><a>Chat App</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseEighth""></i>
+					</li>
+					<li>
+						<i class="icofont-code-alt"></i>
+						<p>Other Pages</p>
+						<ul id="collapseNinth" class="collapse">
+							<li><a>Apex Charts</a></li>
+							<li><a>Forms Example</a></li>
+							<li><a>Table Example</a></li>
+							<li><a>Reviews Page</a></li>
+							<li><a>Icons</a></li>
+							<li><a>Widgets</a></li>
+						</ul>
+						<i class="icofont-dotted-down dropdown" data-toggle="collapse" data-target="#collapseNinth""></i>
+					</li>
+				</ul>
+				<button class="resize_brd" id=""><i class="icofont-bubble-right"></i></button>
+				<button class="switch" id="switch">
+					<span><i class="fa-solid fa-sun"></i></span>
+					<span><i class="fa-solid fa-moon"></i></span>
+				</button>
+			</div>
+		</div>
+		<div class="content">
+			<div class="hdr_content">
+				<div class="hdr_content_left">
+					<div class="hdr_content_left_box">
+						<button><i class="icofont-search"></i></button>
+						<input placeholder="Search">
+					</div>
+				</div>
+				<div class="hdr_content_right">
+					<div class="hdr_content_right_box">
+						<ul class="image_users">
+							<li><img src="img/1.jpg"></li>
+							<li><img src="img/2.jpg"></li>
+							<li><img src="img/3.jpg"></li>
+							<li><img src="img/4.jpg"></li>
+							<li><img src="img/2.jpg"></li>
+							<li><img src="img/1	.jpg"></li>
+							<li><i class="icofont-ui-add"></i></li>
+						</ul>
+						<i class="icofont-alarm notif"></i>
+						<div class="profile_hdr">
+							<p>
+								Dylan Hunter
+								<span>Admin Profile</span>
+							</p>
+							<img src="img/profile.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="title_charge">Employee Profile</h4>
+
+			<div class="content_grid">
+				<div class="box_content_left">
+					<div class="hdr_box_left card_body">
+						<div class="hdr_box_left_1">
+							<div class="cont_hdr_box_left_1">
+								<img src="img/avatar_1.jpg">
+								<div>
+									<h6>
+										Web Developer
+										<span>
+											Employee Id : 00001
+										</span>
+									</h6>
+								</div>
+							</div>
+						</div>
+						<div class="hdr_box_left_2">
+							<div class="cont_employee">
+								<h6>
+									AgilSoft Tech
+									<span>
+										Ryan Ogden
+									</span>
+								</h6>
+								<p>The purpose of lorem ipsum is to create a natural looking block of text (sentence,
+									paragraph, page, etc.) that doesn't distract from the layout. A practice not without
+									controversy</p>
+								<div>
+									<div class="cont_descr_employee">
+										<ul>
+											<li><i class="icofont-smart-phone"></i>
+												<p>202-555-0174</p>
+											</li>
+											<li><i class="icofont-birthday-cake"></i>
+												<p>19/03/1980</p>
+											</li>
+										</ul>
+										<ul>
+											<li><i class="icofont-email"></i>
+												<p>ryanogden@gmail.com</p>
+											</li>
+											<li><i class="icofont-address-book"></i>
+												<p>2734 West Fork Street,EASTON 02334.</p>
+											</li>
+										</ul>
+									</div>
+									<div></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h5>Current Work Project</h5>
+					<div class="grid_box_left">
+						<div class="inside_box_left inside_box_left_tp card_body">
+							<div class="cont_square">
+								<div class="cont_img_square">
+									<div class="img_square blue_sky">
+										<i class="icofont-paint"></i>
+									</div>
+									<p>Social Geek Made</p>
+								</div>
+							</div>
+							<div class="cont1_card_box_left">
+								<h6>UI/UX Design</h6>
+								<div class="edit_remove_card_box_left">
+									<button><i class="icofont-edit"></i></button>
+									<button><i class="icofont-ui-delete"></i></button>
+								</div>
+							</div>
+							<ul class="image_users image_users_box">
+								<li><img src="img/1.jpg"></li>
+								<li><img src="img/2.jpg"></li>
+								<li><img src="img/3.jpg"></li>
+								<li><img src="img/4.jpg"></li>
+								<li><img src="img/2.jpg"></li>
+								<li><img src="img/1	.jpg"></li>
+								<li><i class="icofont-ui-add"></i></li>
+							</ul>
+							<div>
+								<ul class="colum_text_box colum_text_box_top">
+									<li>
+										<i class="icofont-paper-clip"></i>
+										<p>5 Attach</p>
+									</li>
+									<li>
+										<i class="icofont-sand-clock"></i>
+										<p>4 Month</p>
+									</li>
+									<li>
+										<i class="icofont-group-students "></i>
+										<p>5 Members</p>
+									</li>
+									<li>
+										<i class="icofont-ui-text-chat"></i>
+										<p>10</p>
+									</li>
+								</ul>
+							</div>
+							<div class="progress_cont">
+								<p>Progress</p>
+								<div class="progress">
+									<div class="progress-bar progress-bar1" role="progressbar" aria-valuenow="15"
+										aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar progress-bar2 bg-success" role="progressbar"
+										aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar progress-bar3 bg-info" role="progressbar"
+										aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="clock_progress gray">
+									<i class="icofont-ui-clock"></i>
+									<p>35 Days Left</p>
+								</div>
+							</div>
+						</div>
+						<div class="inside_box_left inside_box_left_tp card_body">
+							<div class="cont_square">
+								<div class="cont_img_square">
+									<div class="img_square gray">
+										<i class="icofont-vector-path"></i>
+									</div>
+									<p>Practice to Perfect</p>
+								</div>
+							</div>
+							<div class="cont1_card_box_left">
+								<h6>Web Design</h6>
+								<div class="edit_remove_card_box_left">
+									<button><i class="icofont-edit"></i></button>
+									<button><i class="icofont-ui-delete"></i></button>
+								</div>
+							</div>
+							<ul class="image_users image_users_box">
+								<li><img src="img/1.jpg"></li>
+								<li><img src="img/2.jpg"></li>
+								<li><img src="img/3.jpg"></li>
+								<li><img src="img/4.jpg"></li>
+								<li><img src="img/2.jpg"></li>
+								<li><img src="img/1	.jpg"></li>
+								<li><i class="icofont-ui-add"></i></li>
+							</ul>
+							<div>
+								<ul class="colum_text_box colum_text_box_top">
+									<li>
+										<i class="icofont-paper-clip"></i>
+										<p>5 Attach</p>
+									</li>
+									<li>
+										<i class="icofont-sand-clock"></i>
+										<p>4 Month</p>
+									</li>
+									<li>
+										<i class="icofont-group-students "></i>
+										<p>5 Members</p>
+									</li>
+									<li>
+										<i class="icofont-ui-text-chat"></i>
+										<p>10</p>
+									</li>
+								</ul>
+							</div>
+							<div class="progress_cont">
+								<p>Progress</p>
+								<div class="progress">
+									<div class="progress-bar progress-bar1" role="progressbar" aria-valuenow="15"
+										aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar progress-bar2 bg-success" role="progressbar"
+										aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar progress-bar3 bg-info" role="progressbar"
+										aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="clock_progress gray">
+									<i class="icofont-ui-clock"></i>
+									<p>35 Days Left</p>
+								</div>
+							</div>
+						</div>
+						<div class="inside_box_left inside_box_left_dwn card_body">
+							<div>
+								<h6>Personal Informations</h6>
+								<i class="icofont-edit edit"></i>
+								<ul class="colum_text_box colum_text_box_down">
+									<li>Nationality</li>
+									<li>Indian</li>
+									<li>Religion</li>
+									<li>Hindu</li>
+									<li>Marital Status</li>
+									<li>Married</li>
+									<li>Passport N°</li>
+									<li>5468953210</li>
+									<li>Emergency Contact</li>
+									<li>7468953210</li>
+								</ul>
+							</div>
+						</div>
+						<div class="inside_box_left inside_box_left_dwn card_body">
+							<div>
+								<h6>Bank Informations</h6>
+								<i class="icofont-edit edit"></i>
+								<ul class="colum_text_box colum_text_box_down">
+									<li>Bank Name</li>
+									<li>Kotak</li>
+									<li>Account No.</li>
+									<li>5436874596325486</li>
+									<li>IFSC Code</li>
+									<li>Kotak000021</li>
+									<li>Pan No</li>
+									<li>ACQPF6584L</li>
+									<li>UPI Id</li>
+									<li>454812kotak@upi</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="box_content_right">
+					<div class="grid_box_right">
+						<div class="inside_box_right card_body">
+							<h6 class="title">Current Task</h6>
+							<ul>
+								<li>
+									<div class="cont_crrnt_tsk">
+										<div class="crrnt_tsk_info">
+											<h6 class="blue_sky">UI/UX Design</h6>
+											<div class="crrnt_tsk_state">
+												<div>
+													<img src="img/1.jpg">
+													<img src="img/2.jpg">
+												</div>
+												<p class="green_soft">InProgress</p>
+											</div>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id nec
+											scelerisque massa.</p>
+										<h6 class="crrnt_task_bttn_style">Social Geek Made</h6>
+									</div>
+								</li>
+								<li>
+									<div class="cont_crrnt_tsk">
+										<div class="crrnt_tsk_info">
+											<h6 class="gray">Website Design</h6>
+											<div class="crrnt_tsk_state">
+												<div>
+													<img src="img/2.jpg">
+												</div>
+												<p class="red_orange">Review</p>
+											</div>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id nec
+											scelerisque massa.</p>
+										<h6 class="crrnt_task_bttn_style">Practice to Perfect</h6>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="inside_box_right card_body">
+							<h6 class="title">Experience</h6>
+							<div class="inside_box_right_dwn">
+								<ul>
+									<li>
+										<div class="beach">
+											<p>PW</p>
+										</div>
+										<p>Pixel Wibes<span>Jan 2016 - Present (5 years 2 months)</span></p>
+									</li>
+									<li>
+										<div class="pink">
+											<p>CC</p>
+										</div>
+										<p>Crest Coder<span>Dec 2015 - 2016 (1 years)</span></p>
+									</li>
+									<li>
+										<div class="pink_dark">
+											<p>MW</p>
+										</div>
+										<p>Morning Wibe<span>Nov 2014 - 2015 (1 years)</span></p>
+									</li>
+									<li>
+										<div class="beach">
+											<p>FF
+										</div>
+										<p>FebiFlue<span>Jan 2010 - 2009 (1 years)</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="js/custom.js"></script>
+<footer>
+
+</footer>
+
+</html>
+
+<!--
+
+En vez de hacer un div y con before poner el número,
+ostia qué buena idea hacerlo con ul y li en flex direction 
+column. Parte derecha de la página
+
+Por qué fa fa-?, de dónde sale esto y lo reconoce tabnine?
+
+
+-->
